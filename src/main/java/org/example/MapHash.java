@@ -19,12 +19,12 @@ public class MapHash<K, V> implements Map {
 
     @Override
     public int size() {
-        return this.size;
+        return size;
     }
 
     @Override
     public boolean isEmpty() {
-        return (this.size == 0);
+        return size == 0;
     }
 
     @Override
